@@ -17,5 +17,15 @@ def git():
         neto = totalHoras + Horas_extras
         semana = valorHora * 47
 
+        print(f'El nombre del empleado es: {nombre}')
+        print(f'El valor de la hora es: {valorHora}')
+        print(f'El nuemro de las horas trabajadas son: {numeroHoras}')
+        print(f'El Valor de las (47) horas semanales : {semana}')
+        print(f'Las horas extras trabajadas son : {extras}')
+        print(f'El Valor de las horas extras son : {Horas_extras}')
+        print(f'El valor de las horas trabajadas es de : {totalHoras}')
+        print(f'El neto es de: {neto}')
+
+
 if __name__ == '__main__':
     git()
