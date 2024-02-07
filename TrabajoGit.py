@@ -13,5 +13,9 @@ def git():
         Valor_extras = porcentaje + valorHora
         Horas_extras = extras * Valor_extras
 
+        totalHoras = valorHora * numeroHoras
+        neto = totalHoras + Horas_extras
+        semana = valorHora * 47
+
 if __name__ == '__main__':
     git()
